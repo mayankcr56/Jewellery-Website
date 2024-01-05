@@ -1,0 +1,303 @@
+/* Common CSS */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h4 {
+	color: black;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+/* Footer CSS */
+.footer.style-06 {
+	background-color: #f4f4f4;
+}
+a.backtotop {
+	width: 46px;
+	height: 46px;
+	line-height: 46px;
+	background-color: #fff;
+	border-radius: 50%;
+	font-size: 18px;
+	position: fixed;
+	bottom: 65px;
+	right: 25px;
+	text-align: center;
+	-webkit-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+	z-index: 999;
+	overflow: hidden;
+	-webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+	box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+}
+a.backtotop:not(.active) {
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+}
+a.backtotop i {
+	position: relative;
+	z-index: 1;
+	display: inline-block;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+@media (max-width: 767px) {
+	a.backtotop {
+		display: none;
+	}
+}
+
+.footer.style-06 {
+    background-color: #f4f4f4;
+}
+
+.section-036 {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: #f4f4f4;
+}
+
+@media (min-width: 1280px){
+	.container {
+		width: 1200px;
+	}
+}
+
+.section-036 .logo-footer {
+    margin-bottom: 16px;
+}
+
+.listitem-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.listitem-list .icon {
+    font-size: 23px;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.kaycee-socials .socials-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.kaycee-socials.style-01 .socials-list li {
+    display: inline-block;
+    height: 38px;
+    margin-right: 12px;
+    margin-top: 14px;
+}
+
+.kaycee-listitem.style-01 .title, .kaycee-listitem.style-02 .title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.kaycee-listitem .listitem-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer .kaycee-listitem.style-01 li, footer .kaycee-listitem.style-02 li {
+    margin-bottom: 5px;
+}
+
+.kaycee-listitem.style-01 li, .kaycee-listitem.style-02 li {
+    line-height: 34px;
+}
+
+.kaycee-listitem a:not(:hover) {
+    color: inherit;
+}
+.kaycee-listitem li a {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+}
+
+.kaycee-listitem.style-01 .title, .kaycee-listitem.style-02 .title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.kaycee-listitem .listitem-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+footer .kaycee-listitem.style-01 li, footer .kaycee-listitem.style-02 li {
+    margin-bottom: 5px;
+}
+.kaycee-listitem.style-01 li, .kaycee-listitem.style-02 li {
+    line-height: 34px;
+}
+
+.kaycee-newsletter.style-04 .title {
+    margin-top: 0;
+    margin-bottom: 22px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.kaycee-newsletter.style-04 .subtitle {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.kaycee-newsletter .title, .kaycee-newsletter .subtitle {
+    margin-top: 0;
+}
+
+.kaycee-newsletter.style-04 .desc {
+    max-width: 480px;
+    margin-bottom: 25px;
+}
+
+.kaycee-newsletter.style-04 .newsletter-form-wrap {
+    max-width: 500px;
+}
+
+.kaycee-newsletter .newsletter-form-inner {
+    position: relative;
+}
+
+.kaycee-newsletter.style-04 .email-newsletter {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    padding-right: 140px;
+    border-radius: 0;
+}
+
+input[type="email"] {
+    border: 1px solid #ebebeb;
+    padding: 0 20px;
+    max-width: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    color: #868686;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.kaycee-newsletter.style-04 .submit-newsletter {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 0;
+    padding: 0 15px;
+    min-width: 130px;
+    background: #1e1e1e;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.kaycee-newsletter .newsletter-form-wrap .submit-newsletter span {
+    position: relative;
+}
+
+.section-016 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #eee;
+}
+
+.section-016 p {
+    margin-bottom: 0;
+    padding: 6px 0;
+}
+
+@media (max-width: 767px){.section-016 p {
+    text-align: center;
+    padding-top: 0;
+}
+}
+
+
+.section-016 .payment {
+    text-align: right;
+}
+
+@media (max-width: 767px){
+	.section-016 .payment {
+    	text-align: center;
+	}
+}
+
+/* Footer Mobile Menu */
+@media (max-width: 767px){
+	.footer-device-mobile {
+    	display: block;
+	}
+}
+
+.footer-device-mobile {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    display: none;
+}
+
+.footer-device-mobile .wapper {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.footer-device-mobile-item {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.footer-device-mobile-item > a {
+    display: inline-block;
+    padding: 5px 0;
+    color: #222;
+    line-height: normal;
+    font-size: 13px;
+}
+
+.footer-device-mobile-item > a .icon {
+    font-size: 21px;
+    display: block;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+}
